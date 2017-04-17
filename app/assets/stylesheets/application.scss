@@ -16,3 +16,22 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+ // header.html.erb
+
+ .navbar-default {
+    background-color: #333333!important;
+    border-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    color: #fff!important;
+    letter-spacing: 2px;
+}
