@@ -1,3 +1,25 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+// home.html.erb
+
+
+.item {
+
+  img {
+    height: 500px!important;
+    width: 100%;
+  }
+}
+
+.home-title {
+  font-family: serif;
+
+  i {
+    margin-right: 16px;
+  }
+}

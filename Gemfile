@@ -40,6 +40,8 @@ gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'bootstrap-sass'
 gem 'bcrypt', '~> 3.1.7'
+gem "font-awesome-rails"
+
 
 
 

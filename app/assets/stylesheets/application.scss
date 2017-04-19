@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 
  @import "bootstrap-sprockets";
@@ -29,9 +30,25 @@
 
 .navbar {
     border-radius: 0px;
+    margin-bottom: 0!important;
 }
 
 .navbar-brand {
     color: #fff!important;
     letter-spacing: 2px;
+}
+
+
+// footer.html.erb
+
+
+footer {
+  color: #FFF;
+  background-color: #333333;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
