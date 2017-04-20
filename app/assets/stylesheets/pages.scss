@@ -7,6 +7,10 @@
 
 // home.html.erb
 
+.home-main {
+  margin-bottom: 100px;
+}
+
 
 .item {
 
@@ -18,8 +22,14 @@
 
 .home-title {
   font-family: serif;
+  margin-top: 50px;
+  margin-bottom: 100px;
 
   i {
     margin-right: 16px;
   }
+}
+
+.contents-box {
+  margin-bottom: 30px;
 }
